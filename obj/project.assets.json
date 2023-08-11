@@ -39,7 +39,7 @@
           "lib/netstandard1.3/log4net.dll": {}
         }
       },
-      "Microsoft.ApplicationInsights/1.0.0": {
+      "Microsoft.ApplicationInsights/1.1.0": {
         "type": "package",
         "compile": {
           "lib/net45/Microsoft.ApplicationInsights.dll": {
@@ -1463,10 +1463,10 @@
         "log4net.nuspec"
       ]
     },
-    "Microsoft.ApplicationInsights/1.0.0": {
-      "sha512": "HZ47/thX57SOuIivSvIbsR6L9CCb/Yt3IyB2i4KHmmNlf3DO+lqFwWIKDdbDNWKX+qh0Rg20/JSMPK0dwUsYYw==",
+    "Microsoft.ApplicationInsights/1.1.0": {
+      "sha512": "X4QBy+VEF+J+H+Cuo1jjo+uUjU5d/ipEVgo4MPddo6sVU899kh6TEhPXri4PiZPsZi9nRn5QSjBJOcsnQsrF5w==",
       "type": "package",
-      "path": "microsoft.applicationinsights/1.0.0",
+      "path": "microsoft.applicationinsights/1.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1478,7 +1478,7 @@
         "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll",
         "lib/wp8/Microsoft.ApplicationInsights.XML",
         "lib/wp8/Microsoft.ApplicationInsights.dll",
-        "microsoft.applicationinsights.1.0.0.nupkg.sha512",
+        "microsoft.applicationinsights.1.1.0.nupkg.sha512",
         "microsoft.applicationinsights.nuspec"
       ]
     },
@@ -4796,7 +4796,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Log4net >= 2.0.8",
-      "Microsoft.ApplicationInsights >= 1.0.0"
+      "Microsoft.ApplicationInsights >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -4846,7 +4846,7 @@
           },
           "Microsoft.ApplicationInsights": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.1.0, )"
           }
         },
         "imports": [
@@ -4877,7 +4877,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.ApplicationInsights 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.ApplicationInsights 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.ApplicationInsights",
       "targetGraphs": [
         "net6.0"
