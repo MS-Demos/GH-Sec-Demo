@@ -41,6 +41,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
             "Microsoft.ApplicationInsights": {
               "target": "Package",
               "version": "[1.0.0, )"
