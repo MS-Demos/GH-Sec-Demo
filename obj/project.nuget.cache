@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "53/RqZpph+S6SDUb9f4wDsEcu3YsA72+5y6XNCApDraaFZYe1TzMxhJuxLolPejX3EF1UzS5TRLda2GjBaq7yQ==",
+  "dgSpecHash": "Azflx6SptdRgIKv3lFSX7jmYV3CCy3Z5xFqcEn5lIiU+uaZTu2BpZXp/nH13byoPHcWRx/Sbf/7m6CwP5zg+MA==",
   "success": true,
   "projectFilePath": "C:\\Users\\geramos\\repos\\gh-adv-sec-demo\\gh-adv-sec-demo.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\geramos\\.nuget\\packages\\microsoft.applicationinsights\\1.0.0\\microsoft.applicationinsights.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.ApplicationInsights 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.ApplicationInsights",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
